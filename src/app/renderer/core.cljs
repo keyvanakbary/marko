@@ -60,7 +60,8 @@
                              (reset! content d))
                 :options {:toolbar false
                           :status false
-                          :autofocus true}}]
+                          :autofocus true
+                          :spellChecker false}}]
        [:pre @content]
        [:button {:on-click #(reset! content "reset")} "Reset"]])))
 
