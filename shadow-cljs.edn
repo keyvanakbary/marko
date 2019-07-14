@@ -1,7 +1,8 @@
 {:source-paths ["src"]
 
- :dependencies [
-                [reagent "0.8.1"]]
+ :dependencies [[reagent "0.8.1"]
+                [re-frame "0.10.6"]
+                [secretary "1.2.3"]]
 
  :builds {:main {:target :node-script
                  :output-to "resources/main.js"
