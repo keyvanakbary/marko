@@ -1,4 +1,4 @@
-(ns app.renderer.db)
+(ns marko.db)
 
 (def initial-content "# Hello world!
 Check out the [repository](https://github.com/keyvanakbary/marko).

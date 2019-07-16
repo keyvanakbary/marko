@@ -1,7 +1,7 @@
-(ns app.renderer.events
+(ns marko.events
   (:require
    [re-frame.core :as rf]
-   [app.renderer.db :as db]
+   [marko.db :as db]
    ))
 
 (rf/reg-event-db

@@ -1,9 +1,9 @@
-(ns app.renderer.routes
+(ns marko.routes
   (:require
    [secretary.core :as secretary :refer-macros [defroute]]
    [goog.events :as gevents]
    [re-frame.core :as rf]
-   [app.renderer.events :as events])
+   [marko.events :as events])
   (:import
    [goog.history Html5History]
    [goog.history EventType])

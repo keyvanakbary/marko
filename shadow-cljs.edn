@@ -6,14 +6,14 @@
 
  :builds {:main {:target :node-script
                  :output-to "resources/main.js"
-                 :main app.main.core/main}
+                 :main marko.main/main}
 
-          :renderer {:target :browser
-                     :output-dir "resources/public/js"
-                     :asset-path "js"
+          :app {:target :browser
+                :output-dir "resources/public/js"
+                :asset-path "js"
 
-                     :modules {:renderer {:entries [app.renderer.core]}}
+                :modules {:app {:entries [marko.app]}}
 
-                     :devtools {:before-load app.renderer.core/stop
-                                :after-load app.renderer.core/start}}}}
+                :devtools {:before-load marko.app/stop
+                           :after-load marko.app/start}}}}
 

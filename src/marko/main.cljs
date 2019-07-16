@@ -1,4 +1,4 @@
-(ns app.main.core
+(ns marko.main
   (:require ["electron" :refer [app BrowserWindow crashReporter]]))
 
 (def main-window (atom nil))

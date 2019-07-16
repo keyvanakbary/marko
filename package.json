@@ -4,8 +4,8 @@
   "description": "Marko markdown editor",
   "main": "resources/main.js",
   "scripts": {
-    "dev": "shadow-cljs watch main renderer",
-    "build": "shadow-cljs compile main renderer",
+    "dev": "shadow-cljs watch main app",
+    "build": "shadow-cljs compile main app",
     "clean": "rm -rf resources/public/js/* && rm -rf target",
     "pack": "npm run build && electron-packager .",
     "electron": "electron ."

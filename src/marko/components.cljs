@@ -1,4 +1,4 @@
-(ns app.renderer.components
+(ns marko.components
   (:require
    [reagent.core :as r]
    ["easymde" :as easymde]))

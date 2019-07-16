@@ -1,10 +1,10 @@
-(ns app.renderer.views
+(ns marko.views
   (:require
    [reagent.core :as r]
-   [app.renderer.events :as events]
-   [app.renderer.components :as components]
+   [marko.events :as events]
+   [marko.components :as components]
    [re-frame.core :as rf]
-   [app.renderer.subs :as subs]))
+   [marko.subs :as subs]))
 
 (defn editor-panel []
   (let [content (rf/subscribe [::subs/editor-content])]

@@ -1,11 +1,11 @@
-(ns app.renderer.core
+(ns marko.app
   (:require
    [reagent.core :as r]
    [re-frame.core :as rf]
-   [app.renderer.events :as events]
-   [app.renderer.routes :as routes]
-   [app.renderer.views :as views]
-   [app.renderer.config :as config]
+   [marko.events :as events]
+   [marko.routes :as routes]
+   [marko.views :as views]
+   [marko.config :as config]
    ))
 
 
